@@ -97,8 +97,29 @@
 
       </ul>
     </div>
-    <div class="h220 mt10" style="background:#fff">
-      <title-nav :type="1" />
+    <div class="mt10" style="background:#fff">
+      <title-nav :title-obj="{con: '推荐'}" class="ml10">
+        <span slot="titleIcon" class="w10 h24 mr10 leftOrange" style="display: inline-block;" />
+      </title-nav>
+      <el-carousel indicator-position="outside" height="180px" arrow="nerver">
+        <el-carousel-item v-for="item in 4" :key="item">
+          {{ item }}
+        </el-carousel-item>
+      </el-carousel>
+    </div>
+    <div class="mt10" style="background:#fff">
+      <title-nav :title-obj="{con: '推荐'}" class="ml10">
+        <span slot="titleIcon" class="w10 h24 mr10 leftOrange" style="display: inline-block;" />
+      </title-nav>
+      <el-tabs type="border-card">
+        <el-tab-pane>
+          <span slot="label"><i class="el-icon-date" /> 我的行程</span>
+          我的行程
+        </el-tab-pane>
+        <el-tab-pane label="消息中心">消息中心</el-tab-pane>
+        <el-tab-pane label="角色管理">角色管理</el-tab-pane>
+        <el-tab-pane label="定时任务补偿">定时任务补偿</el-tab-pane>
+      </el-tabs>
     </div>
   </div>
 </template>
