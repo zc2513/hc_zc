@@ -1,15 +1,38 @@
 <template>
   <div>
-    <div style="text-align:center;">
-      <nuxt-link to="/">首页</nuxt-link>
-      <nuxt-link to="/icon">icon</nuxt-link>
-      <nuxt-link to="/title">title</nuxt-link>
-      <nuxt-link to="/element">element-UI</nuxt-link>
-      <nuxt-link to="/scss">scss</nuxt-link>
+    <hder />
+    <div class="zc-container">
+      <div class="top-nav">
+        <headNav />
+      </div>
+      <!-- 视图层 -->
+      <nuxt class="zc-container" />
     </div>
-    <nuxt />
+    <!-- 底部 -->
+    <div style="background-color:#FFF;">
+      <floor />
+    </div>
   </div>
 </template>
+<script>
+import floor from '@/components/floor/index'
+// import navItem from '@/components/header/nav'
+import hder from '@/components/header/header'
+import headNav from '@/components/header/headNav'
+
+export default {
+    name: 'Layou',
+    components: {
+        hder,
+        headNav,
+        // navItem
+        floor
+    }
+}
+</script>
 <style lang="scss" scoped>
     @import '@/assets/scss/default.scss';
+    .top-nav {
+        height: 85px;
+    }
 </style>
