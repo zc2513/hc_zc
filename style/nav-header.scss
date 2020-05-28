@@ -1,0 +1,161 @@
+#app{
+    .nav-header-fixed{//关于固定导航栏样式配置 
+      background-color: $fixHeaderMenuBgc;
+      $nav-height:50px;
+      height: $nav-height; 
+      border-bottom: 1px #ededed solid;
+      box-shadow: 1px 2px 5px #f3f3f3;
+      .fixed-row{
+        .row-ico{
+          float: left; 
+          width: 140px;
+          height: 50px;  
+          padding: 2.5px 0;
+          img{
+            width: 100%; 
+          }
+        }
+        .row-menu{
+          float: left;
+          background-color: #e2e2e2;
+          width: 860px;
+          max-width: 910px;
+          a{
+            display: inline-block;
+            height: 100%;
+          }
+          .el-menu-item, .el-submenu__title{
+            height: 100%;
+          }
+          .el-menu.el-menu--horizontal{
+            border-bottom-color: rgba($color: #000000, $alpha: 0);
+          }
+        }
+        .row-btn{
+          float: right; 
+        }
+        .el-menu-item{
+            padding: 0 9px !important;
+        }
+        .el-menu-item,.el-submenu__title{//间距
+            height: 49px !important;
+            display: flex;
+            align-items: center;
+        }
+        .el-submenu__icon-arrow{
+            right: 0 !important;
+        }
+      }
+      // overflow: hidden;
+      .nav-header{ 
+          height: $nav-height;  
+          display: flex; 
+          text-align: center; 
+      }
+
+      .submenu-title-noDropdown,
+      .el-submenu__title {
+        &:hover {
+          background-color: #fff !important;
+          border-bottom: 2px solid #f60 !important;
+        }
+      }
+      .is-active{
+          background-color: #FFF !important;;
+          border-bottom: 2px solid #f60 !important;
+      }
+
+    }
+    // 导航栏样式
+    .nav-header-container {//关于点击导航样式配置 
+        $nav-height:36px;
+        height: $nav-height; 
+        overflow: hidden; 
+        .nav-header{
+            background: $headerMenuBgc;  
+            height: $nav-height;  
+            display: flex;  
+            >div{
+                width: 10%;
+            }
+            text-align: center; 
+        } 
+        .el-menu-item, .el-submenu__title{
+            height: $nav-height;
+            line-height: $nav-height; 
+        }
+
+        .el-menu-item, .el-submenu__title i{
+            color: #FFF;
+        }
+        // 鼠标滑过样式
+        .submenu-title-noDropdown,
+        .el-submenu__title {
+          &:hover {
+            background-color: $headerActiveMenuBgc !important;
+          }
+        }
+        
+        .is-active{
+            background-color: $headerActiveMenuBgc !important;;
+        }
+        .el-menu.el-menu--horizontal{//如果需要定义下划线则开启
+            // border: solid 1px #e6e6e6;
+            border: 0;
+        }
+        .is-active>.el-submenu__title {//选中后标题显示控制
+          background-color: #00a0e9 !important;
+        } 
+        .el-submenu__icon-arrow{ 
+            right: 0 !important;
+        } 
+        & .nest-menu .el-submenu>.el-submenu__title,
+        & .el-submenu .el-menu-item {
+          min-width: $dropDownTabsWidth !important;
+          background-color: $headerMenuBgc !important;
+    
+          &:hover {
+            background-color:  $headerActiveMenuBgc !important;
+          }
+        }
+    } 
+
+}
+// 下拉框垂直方向样式
+.el-menu--horizontal {
+    &>.el-menu {
+      .svg-icon {
+        margin-right: 16px;
+      }
+    }
+  
+    .nest-menu .el-submenu>.el-submenu__title,
+    .el-menu-item {
+      &:hover { 
+        background-color: $headerActiveMenuBgc !important;
+      }
+    }
+    .is-active{
+        background-color: $headerActiveMenuBgc !important;
+    }
+    // the scroll bar appears when the subMenu is too long
+    >.el-menu--popup { 
+      max-height: 100vh;
+      overflow-y: auto; 
+      &::-webkit-scrollbar-track-piece {
+        background: #d3dce6;
+      }
+      
+      &::-webkit-scrollbar {
+        width: 6px;
+      }
+  
+      &::-webkit-scrollbar-thumb {
+        background: #99a9bf;
+        border-radius: 20px;
+      }
+    } 
+    .nest-menu {
+        width: 100% !important;
+    }
+  }
