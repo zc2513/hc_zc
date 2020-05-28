@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="zc-container">
+    <div class="box">
       <hder />
       <div class="nav-header-container" :style="{ backgroundColor: variables.hBgc }">
         <el-menu
@@ -54,4 +54,7 @@ export default {
 </script>
 <style lang="scss" scoped>
     @import '@/assets/scss/default.scss';
+    .box{
+        background: #fbf5f5;
+    }
 </style>
