@@ -9,7 +9,7 @@
           <p class="h24 lh24" style="color:#A3A3A3;">资源对接</p>
         </div>
       </div>
-      <ul class="fl">
+      <ul class="flsb">
         <li class="qlli">
           <img src="../assets/imgs/quicklook1.png">
           <p style="padding-top:5px;font-weight: 600;">找企业</p>
@@ -40,7 +40,7 @@
           <p class="h24 lh24" style="color:#A3A3A3;">随时随地匹配资源</p>
         </div>
       </div>
-      <ul class="fl">
+      <ul class="flsb">
         <li class="qlli">
           <img src="../assets/imgs/Issuingdemand1.png">
           <p style="padding-top:5px;font-weight: 600;">需要加盟公司</p>
@@ -63,11 +63,42 @@
         </li>
       </ul>
     </div>
-    <div class="h50 lh50">
-      <span>其他服务</span>
-      <span><i>查</i>企业报告查询</span>
-      <span><i>租</i>企业报告查询</span>
-      <span><i>告</i>企业报告查询</span>
+    <div class="h50 lh50 mt10" style="background:#fff">
+      <span class="f22 ml10 mr30">其他服务</span>
+      <span class="f18 mr40"><span class="yx mr10">查</span>企业报告查询</span>
+      <span class="f18 mr40"><span class="yx mr10">租</span>企业报告查询</span>
+      <span class="f18 mr40"><span class="yx mr10">告</span>企业报告查询</span>
+    </div>
+    <div class="h220 mt10" style="background:#fff">
+      <div class="h50 lh50" style="position: relative;">
+        <span class="f30 ql">一站委托</span>
+        <div class="h50" style="display: inline-block;position: absolute;left: 125px;">
+          <p class="h24 lh24" style="color:#A3A3A3;">汇集建设工程全产业链业务合作需求 </p>
+          <p class="h24 lh24" style="color:#A3A3A3;">随时随地匹配资源</p>
+        </div>
+      </div>
+      <ul class="flsb">
+        <li class="qlli">
+          <img src="../assets/imgs/entrust1.png">
+          <p style="padding-top:5px;font-weight: 600;">委托项目</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/entrust2.png">
+          <p style="padding-top:5px;font-weight: 600;">委托加盟</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/entrust3.png">
+          <p style="padding-top:5px;font-weight: 600;">委托扩展机构分支</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/entrust4.png">
+          <p style="padding-top:5px;font-weight: 600;">委托寻找</p>
+        </li>
+
+      </ul>
+    </div>
+    <div class="h220 mt10" style="background:#fff">
+      <title-nav :type="1" />
     </div>
   </div>
 </template>
@@ -93,7 +124,7 @@ export default {
 }
 .qlli{
     height: 120px;
-    width: 120px;
+    width: 150px;
     text-align: center;
     margin-left: 50px;
     margin-top: 20px;
@@ -111,5 +142,15 @@ export default {
      &:hover p{
                 color:#F69900;
         }
+}
+.yx{
+    border-radius: 50%;
+    border: 1px solid #999999;
+    color: #999999;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
 }
 </style>
