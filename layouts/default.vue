@@ -1,7 +1,7 @@
 <template>
   <div>
+    <hder />
     <div class="zc-container">
-      <hder />
       <div class="top-nav">
         <headNav />
       </div>
