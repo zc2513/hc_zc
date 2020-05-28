@@ -1,8 +1,6 @@
 <template>
   <div class="show-list">
-    <div class="title">
-      {{ list.title }}
-    </div>
+    <div class="title">{{ list.title }}</div>
     <div v-for="(item,index) in list.data" :key="index" class="con">
       <template v-if="list.id == 3">
         <span v-for="(ite,ind) in item" :key="ind">
@@ -20,7 +18,7 @@
 <script>
 export default {
     props: {
-    // eslint-disable-next-line vue/require-default-prop
+        // eslint-disable-next-line vue/require-default-prop
         list: {
             type: Object
         }

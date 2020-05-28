@@ -1,6 +1,6 @@
 // 按需引入 Element
 import Vue from 'vue'
-import { Button, Select, Rate, Switch } from 'element-ui'
+import { Button, Select, Rate, Switch, Menu, Submenu, MenuItem, Input, Pagination, Image, Row, Col, Popover, Carousel, CarouselItem, Message, Notification, dropdown, DropdownMenu, DropdownItem } from 'element-ui'
 import lang from 'element-ui/lib/locale/lang/zh-CN'
 import locale from 'element-ui/lib/locale'
 
@@ -12,7 +12,24 @@ locale.use(lang)
 Vue.use(Button)
 Vue.use(Rate)
 Vue.use(Switch)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(Input)
+Vue.use(Pagination)
+Vue.use(Image)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Popover)
+Vue.use(Carousel)
+Vue.use(CarouselItem)
+Vue.use(dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
 Vue.component(Select.name, Select)
+
+Vue.prototype.$notify = Notification
+Vue.prototype.$message = Message
 
 /* 全局引入
 import Vue from 'vue'

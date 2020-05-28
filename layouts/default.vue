@@ -1,54 +1,32 @@
 <template>
-  <div>
-    <div class="box">
-      <hder />
-      <div class="nav-header-container" :style="{ backgroundColor: variables.hBgc }">
-        <el-menu
-          class="nav-header zc-container"
-          style="margin:0 auto;"
-          mode="horizontal"
-          :background-color="variables.hBgc"
-          :default-active="activeMenu"
-          :collapse="false"
-          :text-color="variables.hText"
-          :unique-opened="true"
-          :active-text-color="variables.hActiveText"
-          :collapse-transition="false"
-        >
-          <nav-item
-            v-for="route in routes"
-            :key="route.path"
-            :item="route"
-            :base-path="route.path"
-          />
-        </el-menu>
+  <div class="box">
+    <hder />
+    <div class="zc-container">
+      <div class="top-nav">
+        <headNav />
       </div>
       <!-- 视图层 -->
-      <nuxt class="zc-container mt16" />
-      <!-- 底部 -->
-      <!-- <div style="background-color:#FFF;">
-        <floor />
-      </div> -->
+      <nuxt class="zc-container" />
+    </div>
+    <!-- 底部 -->
+    <div style="background-color:#FFF;">
+      <floor />
     </div>
   </div>
 </template>
 <script>
-// import floor from '@/components/floor/index'
-import navItem from '@/components/header/nav'
+import floor from '@/components/floor/index'
+// import navItem from '@/components/header/nav'
 import hder from '@/components/header/header'
-import variables from '~/style/variables.scss'
+import headNav from '@/components/header/headNav'
 
 export default {
     name: 'Layou',
     components: {
         hder,
-        navItem
-        // floor
-    },
-    computed: {
-        variables() {
-            return variables
-        }
+        headNav,
+        // navItem
+        floor
     }
 }
 </script>
@@ -56,5 +34,7 @@ export default {
     @import '@/assets/scss/default.scss';
     .box{
         background: #fbf5f5;
+    .top-nav {
+        height: 85px;
     }
 </style>

@@ -2,13 +2,13 @@
   <!-- 公司服务  -->
   <div class="serve">
     <div v-for="(item,index) in list" :key="index" class="serve-item">
-      <!-- <div class="left flcc">
-        <img :src="require(`../../../assets/imgs/${item.src}.jpg`)" alt="">
+      <div class="left flcc">
+        <img :src="require(`../../assets/imgs/${item.src}.jpg`)" alt="">
       </div>
       <div class="right">
         <div class="h4" v-text="item.title" />
         <div class="describe elps" v-text="item.describe" />
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
