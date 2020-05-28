@@ -1,6 +1,74 @@
 <template>
-  <div class="blue h400">
+  <div class="blue">
     首页
+    <div class="h220" style="background:#fff">
+      <div class="h50 lh50" style="position: relative;">
+        <span class="f30 ql">快速找</span>
+        <div class="h50" style="display: inline-block;position: absolute;left: 100px;">
+          <p class="h24 lh24" style="color:#A3A3A3;">解决异地项目、员工不足 </p>
+          <p class="h24 lh24" style="color:#A3A3A3;">资源对接</p>
+        </div>
+      </div>
+      <ul class="fl">
+        <li class="qlli">
+          <img src="../assets/imgs/quicklook1.png">
+          <p style="padding-top:5px;font-weight: 600;">找企业</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/quicklook2.png">
+          <p style="padding-top:5px;font-weight: 600;">找团队</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/quicklook3.png">
+          <p style="padding-top:5px;font-weight: 600;">找业绩</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/quicklook4.png">
+          <p style="padding-top:5px;font-weight: 600;">找人才</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/quicklook5.png">
+          <p style="padding-top:5px;font-weight: 600;">找项目</p>
+        </li>
+      </ul>
+    </div>
+    <div class="h220" style="background:#fff">
+      <div class="h50 lh50" style="position: relative;">
+        <span class="f30 ql">发需求</span>
+        <div class="h50" style="display: inline-block;position: absolute;left: 100px;">
+          <p class="h24 lh24" style="color:#A3A3A3;">汇集建设工程全产业链业务合作需求 </p>
+          <p class="h24 lh24" style="color:#A3A3A3;">随时随地匹配资源</p>
+        </div>
+      </div>
+      <ul class="fl">
+        <li class="qlli">
+          <img src="../assets/imgs/Issuingdemand1.png">
+          <p style="padding-top:5px;font-weight: 600;">需要加盟公司</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/Issuingdemand2.png">
+          <p style="padding-top:5px;font-weight: 600;">需要干活团队</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/Issuingdemand3.png">
+          <p style="padding-top:5px;font-weight: 600;">需要合作公司</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/Issuingdemand4.png">
+          <p style="padding-top:5px;font-weight: 600;">广告天地</p>
+        </li>
+        <li class="qlli">
+          <img src="../assets/imgs/Issuingdemand5.png">
+          <p style="padding-top:5px;font-weight: 600;">在建项目</p>
+        </li>
+      </ul>
+    </div>
+    <div class="h50 lh50">
+      <span>其他服务</span>
+      <span><i>查</i>企业报告查询</span>
+      <span><i>租</i>企业报告查询</span>
+      <span><i>告</i>企业报告查询</span>
+    </div>
   </div>
 </template>
 
@@ -13,5 +81,35 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.ql{
+    border-right: 8px solid #F69900;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.qlp{
+    display: inline-block;
+    line-height: 16px;
+    font-size: 12px;
+}
+.qlli{
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-right: 85px;
+    background: #fff;
+    cursor: pointer;
+    &:hover{
+            z-index: 2;
+            -webkit-box-shadow: 0px 10px 15px rgba(0,0,0,.3);
+            box-shadow: 8px 10px 10px rgba(0,0,0,.3);
+            -webkit-transform: translate3d(0,-2px,0);
+            transform: translate3d(0,-2px,0)
+        }
+     &:hover p{
+                color:#F69900;
+        }
+}
 </style>
