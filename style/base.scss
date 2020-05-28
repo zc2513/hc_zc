@@ -503,6 +503,9 @@
     .pt10{
         padding-top: 10px;
     }
+    .pt12{
+        padding-top: 12px;
+    }
     .pt15{
         padding-top: 15px;
     }
@@ -623,6 +626,9 @@
     }
     .ff83c54{
         color:#f83c54;
+    }
+    .f808080{
+        color: #808080;
     }
     .fbd74f9{
         color:#bd74f9;
@@ -748,5 +754,6 @@
     .v-a-b{
         vertical-align: text-bottom;
     }
-
-    .no-data{ height:428px;display: flex;justify-content:center;align-items: center; }
+    .no-data{ 
+        height:428px;display: flex;justify-content:center;align-items: center; 
+        }
