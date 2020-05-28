@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+// import { mapState } from 'vuex'
 import list from './list'
 import linkMan from './linkman'
 export default {
@@ -78,12 +78,12 @@ export default {
         }
     },
     computed: {
-        ...mapState('Public', ['messageNum', 'AdList'])
+        // ...mapState('Public', ['messageNum', 'AdList'])
     },
     watch: {
         messageNum: {
             handler(v) {
-                if (!v) { return }
+                if (!v) return
                 const dataL = v.NewsQcListData.Rows || []
                 dataL.forEach((item) => {
                     if (item.TypeId === 'ClassNews-04') {

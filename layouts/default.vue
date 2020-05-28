@@ -1,7 +1,8 @@
 <template>
   <div>
+    <hder />
     <div class="zc-container">
-      <hder />
+
       <div class="nav-header-container" :style="{ backgroundColor: variables.hBgc }">
         <el-menu
           class="nav-header zc-container"
@@ -25,15 +26,16 @@
       </div>
       <!-- 视图层 -->
       <nuxt class="zc-container mt16" />
-      <!-- 底部 -->
-      <!-- <div style="background-color:#FFF;">
-        <floor />
-      </div> -->
+
+    </div>
+    <!-- 底部 -->
+    <div style="background-color:#FFF;">
+      <floor />
     </div>
   </div>
 </template>
 <script>
-// import floor from '@/components/floor/index'
+import floor from '@/components/floor'
 import navItem from '@/components/header/nav'
 import hder from '@/components/header/header'
 import variables from '~/style/variables.scss'
@@ -42,8 +44,8 @@ export default {
     name: 'Layou',
     components: {
         hder,
-        navItem
-        // floor
+        navItem,
+        floor
     },
     computed: {
         variables() {

@@ -1,152 +1,101 @@
-
-
-{
-    "aboutUs": {
-        "title": "关于我们",
-        "children":[
-                {
-                    "title":"平台简介",
-                    "path":"/about?TypeId=gywm&ID=oins2017040000000002"
-                },
-                {
-                    "title":"公司简介",
-                    "path":"/about?TypeId=gywm&ID=oins2017040000000003"
-                }
-            ]
-        },
-    "support": {
-        "title":"服务与支持",
-        "children":[
+[
+    {
+        "webnav":[
             {
-                "title":"合作平台",
-                "path":"/Business"
+                "name": "首页",
+                "path": "/"
             },
             {
-                "title":"在线支持",
-                "path":"/about?TypeId=fwzc&ID=oins2017040000000007"
+                "name": "免费发布",
+                "path": "1"
             },
             {
-                "title":"联系我们",
-                "path":"/about?TypeId=fwzc&ID=oins2017040000000008"
+                "name": "广告天地",
+                "path": "2"
             },
             {
-                "title":"平台服务说明",
-                "path":"/platForm/PlatformExplain"
+                "name": "热门问答",
+                "path": "3"
+            },
+            {
+                "name": "找企业",
+                "path": "4"
+            },
+            {
+                "name": "找团队",
+                "path": "5"
+            },
+            {
+                "name": "找业绩",
+                "path": "6"
+            },
+            {
+                "name": "找人才",
+                "path": "7"
+            },
+            {
+                "name": "找项目",
+                "path": "8"
+            },
+            {
+                "name": "需要加盟公司",
+                "path": "9"
+            },
+            {
+                "name": "需要干活团队",
+                "path": "10"
+            },
+            {
+                "name": "需要合作公司",
+                "path": "11"
+            },
+            {
+                "name": "一站委托",
+                "path": "12"
+            },
+            {
+                "name": "在线项目",
+                "path": "13"
             }
-        ]
-    },
-    "siteMap":{
-        "title":"站点地图",
-        "children":[
+        ],
+        "customerCList": [
             {
-                "title":"首页",
-                "path":"/",
-                "children":[
-                    {
-                        "title":"市场动态",
-                        "path":"/information/IndustryList?TypeId=scdt"
-                    },
-                    {
-                        "title":"招标资讯",
-                        "path":"/information/IndustryList?TypeId=zbzx"
-                    }
-                ]
+                "name": "企业建站指南",
+                "path": "14"
             },
             {
-                "title":"招投标广场",
-                "path":"/tenderSquare",
-                "children":[
-                    {
-                        "title":"招标公告",
-                        "hot":true,
-                        "path":"/tenderSquare/tenderNotice"
-                    },
-                    {
-                        "title":"变更公告",
-                        "path":"/tenderSquare/changeNotice"
-                    },
-                    {
-                        "title":"中标公告",
-                        "path":"/tenderSquare/bidNotice"
-                    }
-                ]
+                "name": "企业入驻指南",
+                "path": "15"
             },
             {
-                "title":"项目频道",
-                "path":"/ProjectChannel",
-                "children":[
-                    {
-                        "title":"VIP项目",
-                        "hot":true,
-                        "path":"/ProjectChannel/vipPro"
-                    },
-                    {
-                        "title":"拟建项目",
-                        "path":"/ProjectChannel/planPro"
-                    },
-                    {
-                        "title":"在建项目",
-                        "path":"/ProjectChannel/underPro"
-                    },
-                    {
-                        "title":"委托项目",
-                        "path":"/ProjectChannel/entrustPro"
-                    }
-                ]
+                "name": "项目订阅指南",
+                "path": "16"
             },
             {
-                "title":"资讯",
-                "path":"/information",
-                "children":[
-                    {
-                        "title":"今日热点",
-                        "hot":true,
-                        "path":"/information/IndustryList?TypeId=jrrd"
-                    },
-                    {
-                        "title":"热点专题",
-                        "hot":true,
-                        "path":"/information/IndustryList?TypeId=rdzt"
-                    },
-                    {
-                        "title":"政策法规",
-                        "path":"/information/IndustryList?TypeId=zcfg"
-                    },
-                    {
-                        "title":"最新行业资讯",
-                        "path":"/information/IndustryList?TypeId=hyzx"
-                    }
-                ]
+                "name": "广告伦吧指南",
+                "path": "17"
             },
             {
-                "title":"其他",
-                "children":[
-                    {
-                        "title":"产品供应",
-                        "path":"/productSupply"
-                    },
-                    {
-                        "title":"采购专场",
-                        "path":"/purchase"
-                    },
-                    {
-                        "title":"行业展会",
-                        "path":"/exhibition"
-                    },
-                    {
-                        "title":"材料价格",
-                        "path":"/price"
-                    },
-                    {
-                        "title":"交易费用",
-                        "path":"/Transaction"
-                    },
-                    {
-                        "title":"企业平台",
-                        "path":"/platForm"
-                    }
-                ]
+                "name": "委托工厂流程",
+                "path": "18"
+            },
+            {
+                "name": "用户服务协议",
+                "path": "19"
+            },
+            {
+                "name": "免责声明",
+                "path": "20"
+            },
+            {
+                "name": "联系我们",
+                "path": "21"
+            },
+            {
+                "name": "意见反馈",
+                "path": "22"
             }
         ]
     }
-}
+    
+]

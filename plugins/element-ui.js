@@ -1,6 +1,10 @@
 // 按需引入 Element
 import Vue from 'vue'
-import { Button, Select, Rate, Switch } from 'element-ui'
+import {
+    Button, Select, Rate, Switch, Popover, Dropdown,
+    DropdownMenu,
+    DropdownItem
+} from 'element-ui'
 import lang from 'element-ui/lib/locale/lang/zh-CN'
 import locale from 'element-ui/lib/locale'
 
@@ -12,6 +16,10 @@ locale.use(lang)
 Vue.use(Button)
 Vue.use(Rate)
 Vue.use(Switch)
+Vue.use(Popover)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
 Vue.component(Select.name, Select)
 
 /* 全局引入
