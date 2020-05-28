@@ -10,6 +10,11 @@ export default
         sole: 100,
         hidden: true
     },
+    // index: {
+    //     sole: 1,
+    //     meta: { title: '首页' },
+    //     hidden: true
+    // },
     quicklyFind: {
         meta: { title: '快速找' },
         sole: 1
@@ -41,23 +46,19 @@ export default
     },
     joinCompany: {
         meta: { title: '需要加盟公司' },
-        sole: 2,
-        hidden: true
+        sole: 2
     },
     workTeam: {
         meta: { title: '需要干活团队' },
-        sole: 3,
-        hidden: true
+        sole: 3
     },
     coopCompany: {
         meta: { title: '需要合作公司' },
-        sole: 4,
-        hidden: true
+        sole: 4
     },
     entrust: {
         meta: { title: '一站委托' },
-        sole: 5,
-        hidden: true
+        sole: 5
     },
     tenderSquare: {
         meta: { title: '招投标广场' },
@@ -65,29 +66,31 @@ export default
     },
     'tenderSquare-tenderNotice': {
         meta: { title: '招标公告' },
-        sole: 601
+        sole: 601,
+        hidden: true
     },
     'tenderSquare-changeNotice': {
         meta: { title: '变更公告' },
-        sole: 602
+        sole: 602,
+        hidden: true
     },
     'tenderSquare-bidNotice': {
         meta: { title: '中标公告' },
-        sole: 603
+        sole: 603,
+        hidden: true
     },
     'tenderSquare-info': {
         meta: { title: '详情' },
+        sole: 604,
         hidden: true
     },
     underProject: {
         meta: { title: '在建项目' },
-        sole: 7,
-        hidden: true
+        sole: 7
     },
     laws: {
         meta: { title: '政策法规' },
-        sole: 8,
-        hidden: true
+        sole: 8
     },
     notfound: {
         sole: 999,
