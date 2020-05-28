@@ -23,7 +23,8 @@ module.exports = {
     css: [
         'element-ui/lib/theme-chalk/index.css',
         'assets/scss/index.scss',
-        'assets/font/fonts.css'
+        'assets/font/fonts.css',
+        '~style/index.scss'
     ],
 
     plugins: [
