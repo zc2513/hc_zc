@@ -58,6 +58,11 @@ module.exports = {
     styleResources: {
         scss: './assets/scss/mixin.scss'
     },
+    // loadingIndicator: { // 只在spa模式生效
+    //     name: 'wandering-cubes',
+    //     color: '#3B8070',
+    //     background: '#e2e2e2'
+    // },
     router: {
         middleware: 'user-agent',
         prefetchLinks: true,
