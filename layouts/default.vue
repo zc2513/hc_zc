@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div>
     <hder />
     <div class="zc-container">
       <div class="top-nav">
@@ -32,8 +32,6 @@ export default {
 </script>
 <style lang="scss" scoped>
     @import '@/assets/scss/default.scss';
-    .box{
-        background: #fbf5f5;
     .top-nav {
         height: 85px;
     }
