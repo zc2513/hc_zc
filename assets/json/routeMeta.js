@@ -1,20 +1,10 @@
 export default
 {
-    login: {
-        meta: { title: '登录' },
-        sole: 100,
+    index: {
+        sole: 0,
+        meta: { title: '首页' },
         hidden: true
     },
-    register: {
-        meta: { title: '注册' },
-        sole: 100,
-        hidden: true
-    },
-    // index: {
-    //     sole: 1,
-    //     meta: { title: '首页' },
-    //     hidden: true
-    // },
     quicklyFind: {
         meta: { title: '快速找' },
         sole: 1
@@ -92,7 +82,7 @@ export default
         meta: { title: '政策法规' },
         sole: 8
     },
-    notfound: {
+    notFind: {
         sole: 999,
         meta: { title: '404' },
         hidden: true

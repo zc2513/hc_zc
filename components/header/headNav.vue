@@ -1,42 +1,43 @@
 <template>
   <div class="hfull zc-container headNav">
-    <el-row class="hfull">
-      <el-col :span="8" class="hfull flc-y top-logo pl15">
-        <img src="../../assets/imgs/defaultlogo.jpg" alt="" srcset="">
-        <img src="../../assets/imgs/gjrz.jpg" alt="" srcset="">
-      </el-col>
-      <el-col :span="16" class="hfull">
-        <el-col :span="24" class="top-btn">
-          <el-button type="warning" size="small" class="f14 mr10" @click="postDemand">免费发布需求</el-button>
-          <el-button size="small" class="f14" @click="postDemand">免费官方推荐</el-button>
-        </el-col>
-        <el-col :span="24" class="top-nav-box">
-          <div id="app">
-
-            <div class="nav-header-container" style="backgroundColor: #000;">
-              <el-menu
-                class="nav-header sin-container"
-                style="margin:0 auto;"
-                mode="horizontal"
-                :background-color="variables.hBgc"
-                :text-color="variables.hText"
-                :active-text-color="variables.hActiveText"
-                :default-active="activeMenu"
-                :collapse="false"
-                :unique-opened="true"
-                :collapse-transition="false"
-              >
-                <nav-item
-                  v-for="route in routes"
-                  :key="route.path"
-                  :item="route"
-                  :base-path="route.path"
-                />
-              </el-menu>
-            </div>
+    <el-row style="height:70px;">
+      <el-col :span="8" class="hfull top-logo  f-y-e">
+        <div class="ml15 mb10 flsb" style="width:220px;height:44px;">
+          <div style="width:136px;">
+            <img src="../../assets/imgs/defaultlogo.jpg">
           </div>
-
-        </el-col>
+          <div style="width:66px;">
+            <img src="../../assets/imgs/gjrz.jpg">
+          </div>
+        </div>
+      </el-col>
+      <el-col :span="16" class="f-y-sb hfull">
+        <div class="t-r top-btn">
+          <el-button size="mini" type="warning" class="f14 mr10" @click="postDemand">免费发布需求</el-button>
+          <el-button size="mini" class="f14" @click="postDemand">免费官方推荐</el-button>
+        </div>
+        <div id="app" style="height:36px;">
+          <div class="nav-header-container wfull">
+            <el-menu
+              class="nav-header sin-container"
+              mode="horizontal"
+              :background-color="variables.hBgc"
+              :text-color="variables.hText"
+              :active-text-color="variables.hActiveText"
+              :default-active="activeMenu"
+              :collapse="false"
+              :unique-opened="true"
+              :collapse-transition="false"
+            >
+              <nav-item
+                v-for="route in routes"
+                :key="route.path"
+                :item="route"
+                :base-path="route.path"
+              />
+            </el-menu>
+          </div>
+        </div>
       </el-col>
     </el-row>
   </div>
@@ -139,19 +140,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    @import '@/assets/scss/default.scss';
-
 .headNav {
-    .top-logo {
-        img {
-            width: 100px;
-            height: 65px;
-        }
+    .top-logo img{
+        width: 100%;
+        height: 100%;
     }
     .top-btn{
-        height: 50%;
-        text-align: right;
-        padding-top: 5px;
         /deep/ .el-button--warning {
             color: #FFF;
             background-color: #f69900;
@@ -170,9 +164,6 @@ export default {
             background-color: #d1a252;
             border-color: #d1a252;
         }
-    }
-    .top-nav-box{
-        height: 50%;
     }
 }
 

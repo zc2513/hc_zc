@@ -1,13 +1,11 @@
 <template>
   <div>
+
     <hder />
-    <div class="zc-container">
-      <div class="top-nav">
-        <headNav />
-      </div>
-      <!-- 视图层 -->
-      <nuxt class="zc-container" />
-    </div>
+
+    <headNav class="mt10" />
+    <!-- 视图层 -->
+    <nuxt class="zc-container" />
     <!-- 底部 -->
     <div style="background-color:#FFF;">
       <floor />
@@ -30,9 +28,3 @@ export default {
     }
 }
 </script>
-<style lang="scss" scoped>
-    @import '@/assets/scss/default.scss';
-    .top-nav {
-        height: 85px;
-    }
-</style>

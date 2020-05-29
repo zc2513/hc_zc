@@ -22,7 +22,6 @@ module.exports = {
 
     css: [
         'element-ui/lib/theme-chalk/index.css',
-        'assets/scss/index.scss',
         'assets/font/fonts.css',
         '~style/index.scss'
     ],
@@ -57,13 +56,11 @@ module.exports = {
         }
     },
     styleResources: {
-        scss: './assets/scss/mixin.scss'
+        scss: '~style/mixin.scss'
     },
     router: {
         middleware: 'user-agent',
         prefetchLinks: true,
-        linkActiveClass: 'active-link',
-        linkExactActiveClass: 'exact-active-link',
         extendRoutes(routes, resolve) {
             routes.push({
                 name: 'notFind',
