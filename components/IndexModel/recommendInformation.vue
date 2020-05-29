@@ -64,7 +64,7 @@
                 </div>
                 <div style="width: 65%;overflow: hidden;">
                   <p style="font-size: 14px;font-weight: 700;" class="mb5">啊是冬季傲娇</p>
-                  <p class="zxt">软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！</p>
+                  <p class="zxt">软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT1；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！</p>
                 </div>
               </li>
             </ul>
