@@ -84,10 +84,11 @@ export default {
     color: #fff;
 }
 .zxt{
+    font-size: 14px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     color:#999999;
 }
