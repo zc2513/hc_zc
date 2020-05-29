@@ -1,6 +1,6 @@
 // 按需引入 Element
 import Vue from 'vue'
-import { Tabs, Button, Select, Rate, Switch, Menu, Submenu, MenuItem, Input, Pagination, Image, Row, Col, Popover, Carousel, CarouselItem, Message, Notification, dropdown, DropdownMenu, DropdownItem } from 'element-ui'
+import { Button, Select, Rate, Switch, Menu, Submenu, MenuItem, Input, Pagination, Image, Row, Col, Popover, Carousel, CarouselItem, Message, Notification, dropdown, DropdownMenu, DropdownItem } from 'element-ui'
 import lang from 'element-ui/lib/locale/lang/zh-CN'
 import locale from 'element-ui/lib/locale'
 
@@ -26,7 +26,6 @@ Vue.use(CarouselItem)
 Vue.use(dropdown)
 Vue.use(DropdownMenu)
 Vue.use(DropdownItem)
-Vue.use(Tabs)
 Vue.component(Select.name, Select)
 
 Vue.prototype.$notify = Notification
