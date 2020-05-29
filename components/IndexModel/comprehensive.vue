@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="h220" style="background:#fff">
+  <div style="background:#FBF5F5">
+    <div class="h220 mb20" style="background:#fff">
       <div class="h50 lh50" style="position: relative;">
         <span class="f30 ql">快速找</span>
         <div class="h50" style="display: inline-block;position: absolute;left: 100px;">
@@ -62,13 +62,13 @@
         </li>
       </ul>
     </div>
-    <div class="h50 lh50 mt10" style="background:#fff">
+    <div class="h50 lh50 mt10">
       <span class="f22 ml10 mr30">其他服务</span>
       <span class="f18 mr40"><span class="yx mr10">查</span>企业报告查询</span>
       <span class="f18 mr40"><span class="yx mr10">租</span>企业报告查询</span>
       <span class="f18 mr40"><span class="yx mr10">告</span>企业报告查询</span>
     </div>
-    <div class="h220 mt10" style="background:#fff">
+    <div class="h220 mb20" style="background:#fff">
       <div class="h50 lh50" style="position: relative;">
         <span class="f30 ql">一站委托</span>
         <div class="h50" style="display: inline-block;position: absolute;left: 125px;">
@@ -133,7 +133,8 @@ export default {
             -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,.3);
             box-shadow: 5px 5px 5px rgba(0,0,0,.3);
             -webkit-transform: translate3d(0,-2px,0);
-            transform: translate3d(0,-2px,0)
+            transform: translate3d(0,-2px,0);
+            transition:0.4s;
         }
      &:hover p{
                 color:#F69900;

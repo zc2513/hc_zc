@@ -20,7 +20,7 @@
           </title-nav>
           <div class="h20 mb10">
             <div style="float:right;font-weight: 700;color: #999999;">
-              <span class="zxxz">行业资讯</span> / <span>工厂新闻</span>
+              <span @click="zxtp(1)">行业资讯</span> / <span @click="zxtp(2)">工厂新闻</span>
             </div>
           </div>
           <div style="height:195px;background:#fff;">
@@ -57,6 +57,17 @@
 export default {
     async asyncData({ $axios }) {
         await $axios.$get('/Handler/SearchHandler.ashx?OP=SearchData')
+    },
+    data() {
+        return {
+            zxtype: 1
+        }
+    },
+    methods: {
+        zxtp(val) {
+            this.zxtype = val
+            console.log(this.zxtype)
+        }
     }
 }
 </script>

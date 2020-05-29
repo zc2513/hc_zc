@@ -1,5 +1,6 @@
 <template>
-  <div class="">
+  <div style="background:#FBF5F5">
+    <comprehensive />
     <el-row :gutter="20">
       <el-col :span="12">
         <company class="mb12" />
@@ -27,6 +28,7 @@
         <talent />
       </el-col>
     </el-row>
+    <recommendInformation />
   </div>
 </template>
 
