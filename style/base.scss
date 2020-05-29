@@ -1,5 +1,5 @@
     .zc-container {
-        width: 1280px;
+        width: 1280px; 
         margin: 0 auto;
     }
     // 关于布局
@@ -38,7 +38,7 @@
         flex: 1;
     }
 
-    .t-b{//上下布局
+    .f-y-sb{//上下布局
         display: flex;
         flex-direction: column;
         justify-content: space-between; 
@@ -56,6 +56,11 @@
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+    }
+    .f-y-e{ // 底部排序
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
     .m-auto {
         margin: 0 auto;
@@ -432,6 +437,9 @@
     .pl10{
         padding-left: 10px;
     }
+    .pl12{
+        padding-left: 12px;
+    }
     .pl15{
         padding-left: 15px;
     }
@@ -475,6 +483,9 @@
     .pr10{
         padding-right: 10px;
     }
+    .pr12{
+        padding-right: 12px;
+    }
     .pr15{
         padding-right: 15px;
     }
@@ -505,6 +516,9 @@
     }
     .pt10{
         padding-top: 10px;
+    }
+    .pt12{
+        padding-top: 12px;
     }
     .pt15{
         padding-top: 15px;
@@ -626,6 +640,9 @@
     }
     .ff83c54{
         color:#f83c54;
+    }
+    .f808080{
+        color: #808080;
     }
     .fbd74f9{
         color:#bd74f9;
@@ -751,5 +768,6 @@
     .v-a-b{
         vertical-align: text-bottom;
     }
-
-    .no-data{ height:428px;display: flex;justify-content:center;align-items: center; }
+    .no-data{ 
+        height:428px;display: flex;justify-content:center;align-items: center; 
+        }
