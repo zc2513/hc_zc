@@ -29,22 +29,24 @@
 }
 
 @mixin bottomArrow {
-  &::after{
-      content: '';
-      position: absolute; 
-      width: 140px;
-      height: 1px;
-      background-color: #F00;
-      bottom: -1px;
-      left: 0;
-  }
-  &::before{
-      content: '';
-      position: absolute; 
-      width: 10px;
-      height: 10px;
-      background-color: #F00;
-      bottom: -11px;
-      left: 65px;
-  }
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute; 
+        width: 140px;
+        height: 1px;
+        background-color: #F00;
+        bottom: -1px;
+        left: 0;
+    }
+    &::before{
+        content: '';
+        position: absolute; 
+        width: 30px;
+        height: 11px;   
+        background: url('~assets/imgs/triangle-down.png') no-repeat 0 -10px;
+        background-size:100%; 
+        left: 60px;  
+        bottom: -11px;
+    }
 }

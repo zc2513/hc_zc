@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="layouts-default">
 
     <hder />
 
@@ -28,3 +28,8 @@ export default {
     }
 }
 </script>
+<style lang="scss" scoped>
+    .layouts-default{
+        background-color: #fbf6f5;
+    }
+</style>
