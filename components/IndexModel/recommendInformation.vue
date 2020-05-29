@@ -20,14 +20,14 @@
           </title-nav>
           <div class="h20 mb10">
             <div style="float:right;font-weight: 700;color: #999999;">
-              <span @click="zxtp(1)">行业资讯</span> / <span @click="zxtp(2)">工厂新闻</span>
+              <a :class="zxtype===1?'zxxz':''" @mouseover="zxtp(1)">行业资讯</a> / <a :class="zxtype===2?'zxxz':''" @mouseover="zxtp(2)">工厂新闻</a>
             </div>
           </div>
           <div style="height:195px;background:#fff;">
-            <ul>
+            <ul v-show="zxtype===1">
               <li style="height:95px;background:#fff;margin-bottom: 5px;" class="flsb">
                 <div style="width: 30%;height: 100%;position: relative;">
-                  <img src="../../assets/imgs/Issuingdemand5.png" style="width: 100%;height: 100%;">
+                  <img src="../../assets/imgs/Issuingdemand1.png" style="width: 100%;height: 100%;">
                   <p class="zxrq">2020 04-17</p>
                 </div>
                 <div style="width: 65%;overflow: hidden;">
@@ -37,8 +37,30 @@
               </li>
               <li style="height:95px;background:#fff;margin-bottom: 5px;" class="flsb">
                 <div style="width: 30%;height: 100%;position: relative;">
-                  <img src="../../assets/imgs/Issuingdemand5.png" style="width: 100%;height: 100%;">
+                  <img src="../../assets/imgs/Issuingdemand1.png" style="width: 100%;height: 100%;">
                   <p class="zxrq">2020 04-17</p>
+                </div>
+                <div style="width: 65%;overflow: hidden;">
+                  <p style="font-size: 14px;font-weight: 700;" class="mb5">啊是冬季傲娇</p>
+                  <p class="zxt">软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！</p>
+                </div>
+              </li>
+            </ul>
+            <ul v-show="zxtype===2">
+              <li style="height:95px;background:#fff;margin-bottom: 5px;" class="flsb">
+                <div style="width: 30%;height: 100%;position: relative;">
+                  <img src="../../assets/imgs/Issuingdemand5.png" style="width: 100%;height: 100%;">
+                  <p class="zxrq">2020 05-27</p>
+                </div>
+                <div style="width: 65%;overflow: hidden;">
+                  <p style="font-size: 14px;font-weight: 700;" class="mb5">啊是冬季傲娇</p>
+                  <p class="zxt">软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！软件采用成熟的OCR识别技术，支持JPG、BMP、PNG、MP3、MAV、TIF等格式图片识别为TXT；高效的识别各类复杂字体和语音.识别率高！</p>
+                </div>
+              </li>
+              <li style="height:95px;background:#fff;margin-bottom: 5px;" class="flsb">
+                <div style="width: 30%;height: 100%;position: relative;">
+                  <img src="../../assets/imgs/Issuingdemand5.png" style="width: 100%;height: 100%;">
+                  <p class="zxrq">2020 05-27</p>
                 </div>
                 <div style="width: 65%;overflow: hidden;">
                   <p style="font-size: 14px;font-weight: 700;" class="mb5">啊是冬季傲娇</p>
@@ -66,7 +88,6 @@ export default {
     methods: {
         zxtp(val) {
             this.zxtype = val
-            console.log(this.zxtype)
         }
     }
 }
