@@ -5,7 +5,7 @@
     </title-nav>
     <ul class="ul">
       <li class="border-e5 pl12 pb10 pt10 pr12 f14">
-        <p class="cont">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
+        <p class="cont wfull">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
         <div class="one flsb f808080">
           <p>联系人：王先生</p>
           <p>联系电话：15503668888</p>
@@ -28,11 +28,12 @@ export default {
 
 <style lang="scss" scoped>
     .cont{
-        text-overflow: -o-ellipsis-lastline;
+        // text-overflow: -o-ellipsis-lastline;
         overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
+        // text-overflow: ellipsis;
+        // display: -webkit-box;
+        // -webkit-line-clamp: 2;
+        // -webkit-box-orient: vertical;
+        max-height:38px;
     }
 </style>

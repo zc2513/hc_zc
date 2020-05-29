@@ -43,6 +43,12 @@
         flex-direction: column;
         justify-content: space-between; 
     }
+    .f-y-sa{//上下布局
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+        align-items: center;
+    }
     .t-bc{//垂直
         display: flex;
         flex-direction: column;
