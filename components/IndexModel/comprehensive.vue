@@ -1,9 +1,9 @@
 <template>
   <div style="background:#FBF5F5">
     <div class="h220 mb20" style="background:#fff">
-      <div class="h50 lh50" style="position: relative;">
+      <div class="h50 lh50 fl">
         <span class="f30 ql">快速找</span>
-        <div class="h50" style="display: inline-block;position: absolute;left: 100px;">
+        <div class="h50">
           <p class="h24 lh24" style="color:#A3A3A3;">解决异地项目、员工不足 </p>
           <p class="h24 lh24" style="color:#A3A3A3;">资源对接</p>
         </div>
@@ -93,7 +93,6 @@
           <img src="../../assets/imgs/entrust4.png">
           <p style="padding-top:5px;font-weight: 600;">委托寻找</p>
         </li>
-
       </ul>
     </div>
   </div>
