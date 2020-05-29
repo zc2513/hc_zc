@@ -6,7 +6,7 @@
     <ul class="ul">
       <li class="flsb border-e5 pl20 pb20 pt20 pr20">
         <img src="../../assets/imgs/banner.jpg" alt="" class="border-e5 mr10">
-        <div class="right">
+        <div class="right f14">
           <div class="one flsb">
             <p>华春工程建设项目管理有限公司</p>
           </div>

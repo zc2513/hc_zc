@@ -5,9 +5,9 @@
     </title-nav>
     <ul class="ul">
       <li class="border-e5 pl12 pb5 pt5 pr12">
-        <p class="cont  mb5">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
-        <div class="one flsb f808080">
-          <div class="other fl">
+        <p class="cont f14 mb5">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
+        <div class="one flsb f808080 f14">
+          <div class="other fl f14">
             <p class="mr20 type">公开招标</p>
             <p>山西太原</p>
           </div>
