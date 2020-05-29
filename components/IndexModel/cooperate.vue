@@ -4,10 +4,10 @@
       <span slot="titleIcon" class="w10 h24 mr10 leftOrange" style="display: inline-block;" />
     </title-nav>
     <ul class="ul">
-      <li class="border-e5 pl12 pb10 pt10 pr12">
+      <li class="border-e5 pl12 pb10 pt10 pr12 f14">
         <p class="cont">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
-        <div class="one fl f808080">
-          <p class="mr20">联系人：王先生</p>
+        <div class="one flsb f808080">
+          <p>联系人：王先生</p>
           <p>联系电话：15503668888</p>
           <p>2018-12-12</p>
         </div>

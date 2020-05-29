@@ -5,11 +5,11 @@
     </title-nav>
     <ul class="ul">
       <li class="border-e5 pl5 pb5 pt5 pr5 fl">
-        <div class="one">
+        <div class="one f14">
           <span class="type">找人才</span>
           <p>工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
         </div>
-        <p class="end">
+        <p class="end f14">
           联系人：马经理
         </p>
       </li>

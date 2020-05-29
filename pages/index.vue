@@ -1,9 +1,19 @@
 <template>
   <div class="">
-    <company class="mb12" />
-    <fteam class="mb12" />
-    <fachieve class="mb12" />
-    <join class="mb12" />
+    <el-row :gutter="20">
+      <el-col :span="12">
+        <company class="mb12" />
+      </el-col>
+      <el-col :span="12">
+        <fteam class="mb12" />
+      </el-col>
+      <el-col :span="12">
+        <fachieve class="mb12" />
+      </el-col>
+      <el-col :span="12">
+        <join class="mb12" />
+      </el-col>
+    </el-row>
     <el-row :gutter="14">
       <el-col :span="8">
         <todo class="mb15" />

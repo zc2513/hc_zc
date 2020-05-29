@@ -4,8 +4,8 @@
       <span slot="titleIcon" class="w10 h24 mr10 leftOrange" style="display: inline-block;" />
     </title-nav>
     <ul class="ul">
-      <li class="border-e5 pl20 pb12 pt12 pr20">
-        <p class="cont mb10">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
+      <li class="border-e5 pl20 pb12 pt12 pr20 f14">
+        <p class="cont mb5">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
         <div class="one fl f808080">
           <p class="mr20">联系人：王先生</p>
           <p>联系电话：15503668888</p>

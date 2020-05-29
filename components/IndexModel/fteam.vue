@@ -6,7 +6,16 @@
     <ul class="ul">
       <li class="fl border-e5 pl20 pb20 pt20 pr20">
         <img src="../../assets/imgs/banner.jpg" alt="" class="border-e5 mr15">
-        <div class="right">
+        <div class="right f14">
+          <div class="one">
+            <p>华春工程建设项目管理有限公司</p>
+          </div>
+          <p class="cont f808080">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
+        </div>
+      </li>
+      <li class="fl border-e5 pl20 pb20 pt20 pr20">
+        <img src="../../assets/imgs/banner.jpg" alt="" class="border-e5 mr15">
+        <div class="right f14">
           <div class="one">
             <p>华春工程建设项目管理有限公司</p>
           </div>
@@ -31,6 +40,10 @@ export default {
 .ul{
     li{
         align-items: center;
+        margin-bottom: 12px;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
         img{
             width:80px;
             height: 80px;
