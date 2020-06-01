@@ -5,7 +5,7 @@
     </title-nav>
     <ul class="ul">
       <li class="fl border-e5 pl5 pb5 pt5 pr5">
-        <div class="left f-y-sa mr15 f14">
+        <div class="left fl-y-sa mr15 f14">
           <img src="../../assets/imgs/banner.jpg" alt="" class="mb5">
           <span>找出租</span>
         </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="title-nav-box">
-    <div class="title" :class="{wireb:iswireb}" :style="sHeight">
+    <div class="title" :class="{'border-b':iswireb}" :style="sHeight">
       <div
         :class="{verticalLine:isLine || (type == 2 && isLine)}"
         :style="{
