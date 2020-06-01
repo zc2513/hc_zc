@@ -3,14 +3,15 @@
 $dropDownTabsWidth: 210px;
 // 导航栏颜色定义
 $headerMenuBgc:#ffffff;
-$headerActiveMenuBgc:#00a0e9;
+// $headerActiveMenuBgc:#00a0e9;
+$headerActiveMenuBgc:#f69900;
 $headerTextColor: #666666;
 $headerActiveTextColor: #f69900;  
 
 // 固定导航栏颜色定义
-$fixHbac:#FFF;
-$fixHeaderTextColor: #f60;
-$fixHeaderMenuBgc:#FFF;
+// $fixHbac:#FFF;
+// $fixHeaderTextColor: #f60;
+// $fixHeaderMenuBgc:#FFF;
 
 
 :export {     
@@ -19,8 +20,8 @@ $fixHeaderMenuBgc:#FFF;
   hActiveBgc:$headerActiveMenuBgc;
   hText:$headerTextColor;
   hActiveText:$headerActiveTextColor; 
-  fixHeaderMenuBgc:$fixHeaderMenuBgc;
-  fixHbac:$fixHbac;
-  fixHeaderTextColor:$fixHeaderTextColor;
-  fixHActiveText:$fixHeaderTextColor;
+//   fixHeaderMenuBgc:$fixHeaderMenuBgc;
+//   fixHbac:$fixHbac;
+//   fixHeaderTextColor:$fixHeaderTextColor;
+//   fixHActiveText:$fixHeaderTextColor;
 }
