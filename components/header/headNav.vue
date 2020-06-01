@@ -141,6 +141,7 @@ export default {
 
 <style lang="scss" scoped>
 .headNav {
+    background: #ffffff;
     .top-logo img{
         width: 100%;
         height: 100%;

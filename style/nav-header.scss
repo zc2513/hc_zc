@@ -6,12 +6,14 @@
         .nav-header{ 
             height: $nav-height;  
             display: flex;   
-            text-align: center; 
+            // text-align: center; 
+            justify-content: flex-end;
         } 
         .el-menu-item, .el-submenu__title{
             height: $nav-height;
             line-height: $nav-height; 
             padding: 0 15.5px;
+            border: 1px solid #ffffff;
         }
 
         .el-menu-item, .el-submenu__title i{
@@ -21,15 +23,19 @@
         .submenu-title-noDropdown,
         .el-submenu__title {
           &:hover {
-            background-color: $headerActiveMenuBgc !important;
+            background-color: $headerMenuBgc !important;
+            border: 1px solid #f69900;
+            color: #f7a011 !important;
           }
         }
         
         .is-active{
-            background-color: $headerActiveMenuBgc !important;;
+            color: $headerActiveMenuBgc !important;
+            border: 1px solid #f69900;
+            background-color: $headerMenuBgc !important;
         }
         .el-menu.el-menu--horizontal{//如果需要定义下划线则开启
-            // border: solid 1px #e6e6e6;
+            // border: solid 1px #f69900;
             border: 0;
         }
         .is-active>.el-submenu__title {//选中后标题显示控制
@@ -45,6 +51,7 @@
     
           &:hover {
             background-color:  $headerActiveMenuBgc !important;
+            color: $headerActiveMenuBgc !important;
           }
         }
     } 
@@ -80,7 +87,7 @@
       }
   
       &::-webkit-scrollbar-thumb {
-        background: #99a9bf;
+        // background: #99a9bf;
         border-radius: 20px;
       }
     } 

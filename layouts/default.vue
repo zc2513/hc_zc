@@ -3,7 +3,9 @@
 
     <hder />
 
-    <headNav class="mt10" />
+    <div style="background-color:#FFF;border-top:1px solid #dfdfdf;">
+      <headNav class="pt10" />
+    </div>
     <!-- 视图层 -->
     <nuxt class="zc-container" />
     <!-- 底部 -->
@@ -14,7 +16,6 @@
 </template>
 <script>
 import floor from '@/components/floor/index'
-// import navItem from '@/components/header/nav'
 import hder from '@/components/header/header'
 import headNav from '@/components/header/headNav'
 
@@ -23,7 +24,6 @@ export default {
     components: {
         hder,
         headNav,
-        // navItem
         floor
     }
 }
