@@ -7,7 +7,7 @@
       <li class="border-e5 pl5 pb5 pt5 pr5 fl">
         <div class="one f14">
           <span class="type">找人才</span>
-          <p>工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
+          <p class="wfull">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
         </div>
         <p class="end f14">
           联系人：马经理
@@ -34,11 +34,12 @@ li{
 .one{
     p{
         display: initial;
-        text-overflow: -o-ellipsis-lastline;
+        // text-overflow: -o-ellipsis-lastline;
+        // text-overflow: ellipsis;
+        // -webkit-line-clamp: 4;
+        // -webkit-box-orient: vertical;
         overflow: hidden;
-        text-overflow: ellipsis;
-        -webkit-line-clamp: 4;
-        -webkit-box-orient: vertical;
+        max-height: 95px;
     }
     .type{
         border: 1px solid #f29607;

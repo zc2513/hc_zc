@@ -5,7 +5,7 @@
     </title-nav>
     <ul class="ul">
       <li class="border-e5 pl12 pb10 pt10 pr12">
-        <p class="cont f14">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
+        <p class="cont f14 wfull">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
       </li>
     </ul>
   </div>
@@ -23,11 +23,12 @@ export default {
 
 <style lang="scss" scoped>
     .cont{
-        text-overflow: -o-ellipsis-lastline;
+        // text-overflow: -o-ellipsis-lastline;
         overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
+        // text-overflow: ellipsis;
+        // display: -webkit-box;
+        // -webkit-line-clamp: 2;
+        // -webkit-box-orient: vertical;
+        max-height: 38px;
     }
 </style>

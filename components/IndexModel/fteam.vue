@@ -44,17 +44,22 @@ export default {
         &:last-of-type{
             margin-bottom: 0;
         }
+        .right{
+            flex: 1;
+        }
         img{
             width:80px;
             height: 80px;
         }
         .cont{
-            text-overflow: -o-ellipsis-lastline;
+            // text-overflow: -o-ellipsis-lastline;
             overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
+            // text-overflow: ellipsis;
+            // display: -webkit-box;
+            // -webkit-line-clamp: 2;
+            // -webkit-box-orient: vertical;
+            max-height: 57px;
+            width: 100%;
         }
 
     }

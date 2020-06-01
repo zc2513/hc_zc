@@ -5,7 +5,7 @@
     </title-nav>
     <ul class="ul">
       <li class="border-e5 pl12 pb5 pt5 pr12">
-        <p class="cont f14 mb5">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
+        <p class="cont f14 mb5 wfull">工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，工程造价代理，</p>
         <div class="one flsb f808080 f14">
           <div class="other fl f14">
             <p class="mr20 type">公开招标</p>
@@ -34,11 +34,12 @@ export default {
      color: #f29607;
 }
     .cont{
-        text-overflow: -o-ellipsis-lastline;
+        // text-overflow: -o-ellipsis-lastline;
         overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;
+        // text-overflow: ellipsis;
+        // display: -webkit-box;
+        // -webkit-line-clamp: 1;
+        // -webkit-box-orient: vertical;
+        height: 19px;
     }
 </style>

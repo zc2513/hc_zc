@@ -5,11 +5,11 @@
     </title-nav>
     <ul class="ul">
       <li class="fl border-e5 pl5 pb5 pt5 pr5">
-        <div class="left mr15 f14">
+        <div class="left f-y-sa mr15 f14">
           <img src="../../assets/imgs/banner.jpg" alt="" class="mb5">
           <span>找出租</span>
         </div>
-        <div class="right f14">
+        <div class="right f14 fl1">
           <div class="one">
             <p>华春工程建设项目管理有限公司</p>
           </div>
@@ -35,6 +35,7 @@ export default {
     li{
         align-items: center;
         .left{
+            width:60px;
             img{
                 width:60px;
                 height: 40px;
@@ -45,12 +46,14 @@ export default {
             }
         }
         .cont{
-            text-overflow: -o-ellipsis-lastline;
+            // text-overflow: -o-ellipsis-lastline;
             overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
+            // text-overflow: ellipsis;
+            // display: -webkit-box;
+            // -webkit-line-clamp: 2;
+            // -webkit-box-orient: vertical;
+            width: 100%;
+            height: 38px;
         }
 
     }
