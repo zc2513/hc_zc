@@ -3,7 +3,9 @@
 
     <hder />
 
-    <headNav class="mt10" />
+    <div style="background-color:#FFF;border-top:1px solid #dfdfdf;">
+      <headNav class="pt10" />
+    </div>
     <!-- 视图层 -->
     <nuxt class="zc-container" />
     <!-- 底部 -->

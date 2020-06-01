@@ -1,6 +1,6 @@
 <template>
   <div class="hfull zc-container headNav">
-    <el-row style="height:70px;">
+    <el-row style="height:83px;">
       <el-col :span="8" class="hfull top-logo  f-y-e">
         <div class="ml15 mb10 flsb" style="width:220px;height:44px;">
           <div style="width:136px;">
@@ -141,6 +141,7 @@ export default {
 
 <style lang="scss" scoped>
 .headNav {
+    background: #ffffff;
     .top-logo img{
         width: 100%;
         height: 100%;
