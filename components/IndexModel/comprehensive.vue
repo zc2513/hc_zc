@@ -1,6 +1,6 @@
 <template>
   <div style="background:#FBF5F5">
-    <div class="h220 mb20" style="background:#fff">
+    <div class="h220 mb20 pt15" style="background:#fff">
       <div class="h50 lh50 fl">
         <span class="f30 ql">快速找</span>
         <div class="h50 ml10">
@@ -31,7 +31,7 @@
         </li>
       </ul>
     </div>
-    <div class="h220" style="background:#fff">
+    <div class="h220 pt15" style="background:#fff">
       <div class="h50 lh50 fl">
         <span class="f30 ql">发需求</span>
         <div class="h50 ml10">
@@ -68,7 +68,7 @@
       <span class="f18 mr40"><span class="yx mr10">租</span>企业报告查询</span>
       <span class="f18 mr40"><span class="yx mr10">告</span>企业报告查询</span>
     </div>
-    <div class="h220 mb20 mt10" style="background:#fff">
+    <div class="h220 mb20 mt10 pt15" style="background:#fff">
       <div class="h50 lh50 fl">
         <span class="f30 ql">一站委托</span>
         <div class="h50 ml10">
@@ -110,7 +110,7 @@ export default {
 .ql{
     border-right: 8px solid #F69900;
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 .qlp{
     display: inline-block;
