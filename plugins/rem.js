@@ -2,7 +2,7 @@
 const baseSize = 192
 function restsize() {
     const scale = document.documentElement.clientWidth / 1920
-    document.documentElement.style.fontSize = (baseSize * Math.min(scale, 2)) + 'px'
+    document.documentElement.style.fontSize = (baseSize * Math.min(scale, 2)) <= 150 ? '150px' : (baseSize * Math.min(scale, 2)) + 'px'
 }
 if (process.client) {
     restsize()
